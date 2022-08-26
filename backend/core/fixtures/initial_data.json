@@ -1,0 +1,218 @@
+[
+{
+    "model": "core.customuser",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$9wlK3PntTbRqiNzlJJuT3M$ZoESBu7D3iRlkNEtwZhDISaCHgzzDrmOUD+F1kSM5jM=",
+        "last_login": "2022-08-26T14:44:58.296Z",
+        "is_superuser": true,
+        "username": "bibi",
+        "first_name": "",
+        "last_name": "",
+        "email": "bennyforeman1@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-08-26T12:43:05.133Z",
+        "token_amount": 1800,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "core.tag",
+    "pk": 1,
+    "fields": {
+        "name": "Politics"
+    }
+},
+{
+    "model": "core.tag",
+    "pk": 2,
+    "fields": {
+        "name": "Trump"
+    }
+},
+{
+    "model": "core.tag",
+    "pk": 3,
+    "fields": {
+        "name": "Politics"
+    }
+},
+{
+    "model": "core.tag",
+    "pk": 4,
+    "fields": {
+        "name": "Politics"
+    }
+},
+{
+    "model": "core.tag",
+    "pk": 5,
+    "fields": {
+        "name": "csacsac"
+    }
+},
+{
+    "model": "core.tag",
+    "pk": 6,
+    "fields": {
+        "name": "csacsacsacsacsa"
+    }
+},
+{
+    "model": "core.market",
+    "pk": 1,
+    "fields": {
+        "name": "Who will win the 2022 Alaska at-large special elec",
+        "rules": "The contract that resolves to Yes shall be that which identifies the winner of the 2022 special election for U.S. Representative from Alaska's at-large Congressional District.\r\n\r\nPredictIt reserves the right to wait for further official, party, judicial or other relevant announcements, reports or decisions to resolve any ambiguity or uncertainty before the market is settled. Markets may stay open or incur a delay in settlement well past the date of the contest in certain circumstances. If there is any change to an event, or any situation arises, that is not in PredictIt’s view addressed adequately by the market rules, PredictIt will decide the fairest and most appropriate course of action.",
+        "tags": [
+            1
+        ]
+    }
+},
+{
+    "model": "core.market",
+    "pk": 2,
+    "fields": {
+        "name": "Will Donald Trump be indicted by Sept. 1?",
+        "rules": "This market shall resolve to Yes if any Federal or State jurisdiction of the United States unseals or otherwise officially announces a criminal indictment of former President Donald Trump by the End Date listed below. For purposes of this market, the District of Columbia and any county, municipality, or other subdivision of a State shall be included within the definition of a State.\r\n\r\nAn indictment that has been issued but remains sealed or otherwise secret at the End Date shall not be sufficient to resolve this market.",
+        "tags": [
+            1,
+            2
+        ]
+    }
+},
+{
+    "model": "core.market",
+    "pk": 3,
+    "fields": {
+        "name": "csac",
+        "rules": "csacsacsacsa",
+        "tags": []
+    }
+},
+{
+    "model": "core.market",
+    "pk": 4,
+    "fields": {
+        "name": "csacsacsac",
+        "rules": "csacsacsacsacsa",
+        "tags": []
+    }
+},
+{
+    "model": "core.market",
+    "pk": 5,
+    "fields": {
+        "name": "csacsacsac",
+        "rules": "csacsacsacsacsa",
+        "tags": []
+    }
+},
+{
+    "model": "core.market",
+    "pk": 6,
+    "fields": {
+        "name": "csacsacsac",
+        "rules": "csacsacsacsacsa",
+        "tags": []
+    }
+},
+{
+    "model": "core.market",
+    "pk": 7,
+    "fields": {
+        "name": "csacsacsac",
+        "rules": "csacsacsacsacsa",
+        "tags": [
+            3
+        ]
+    }
+},
+{
+    "model": "core.market",
+    "pk": 8,
+    "fields": {
+        "name": "csacsacsa",
+        "rules": "csacsacsacsacsacsacsa",
+        "tags": [
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "core.contract",
+    "pk": 1,
+    "fields": {
+        "name": "Sarah Palin",
+        "market": 1
+    }
+},
+{
+    "model": "core.contract",
+    "pk": 2,
+    "fields": {
+        "name": "Mary Peltola",
+        "market": 1
+    }
+},
+{
+    "model": "core.contract",
+    "pk": 3,
+    "fields": {
+        "name": "Nick Begich III",
+        "market": 1
+    }
+},
+{
+    "model": "core.contract",
+    "pk": 4,
+    "fields": {
+        "name": "Gregg Brelsford",
+        "market": 1
+    }
+},
+{
+    "model": "core.contract",
+    "pk": 5,
+    "fields": {
+        "name": "Latest Price",
+        "market": 2
+    }
+},
+{
+    "model": "core.contract",
+    "pk": 6,
+    "fields": {
+        "name": "Latest Price",
+        "market": 7
+    }
+},
+{
+    "model": "core.contract",
+    "pk": 7,
+    "fields": {
+        "name": "Latest Price",
+        "market": 8
+    }
+},
+{
+    "model": "core.contract",
+    "pk": 8,
+    "fields": {
+        "name": "Newest Price",
+        "market": 8
+    }
+},
+{
+    "model": "core.contract",
+    "pk": 9,
+    "fields": {
+        "name": "Lamest Price",
+        "market": 8
+    }
+}
+]
